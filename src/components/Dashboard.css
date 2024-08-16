@@ -1,0 +1,64 @@
+/* ActivityLog.css */
+
+.activity-log-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c1d0ef;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .page-title {
+    font-size: 2.5rem;
+    color: #4a90e2;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .activity-form-section, .activity-list-section {
+    background: #5553ce;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(33, 18, 248, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    color: #4a90e2;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .logout-button {
+    background-color: #59ec38;
+    color: #6583de;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #35d232;
+  }
+  
+  .activity-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .activity-list li {
+    background: #401ed5;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #774befe7;
+    font-size: 16px;
+  }
+  

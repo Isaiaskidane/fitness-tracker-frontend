@@ -1,0 +1,28 @@
+.activity-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #233fde;
+  }
+  
+  .activity-list h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .activity-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .activity-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .activity-list li:last-child {
+    border-bottom: none;
+  }
+  
